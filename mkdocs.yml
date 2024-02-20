@@ -1,0 +1,20 @@
+site_name: Ben Donnelly
+
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.indexes
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/umaaz
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/r/bendonnelly
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/benjamin-donnelly-369bba65/
+
+plugins:
+  - search
+  - blog
